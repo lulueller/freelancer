@@ -10,10 +10,15 @@
   box-sizing: border-box;
 }
 
+a {
+text-decoration: none;
+}
+
 body {
   margin: 0 auto;
+  width: 93.7%;
   height: 100%;
-  width: 90%;
+  justify-content: center;
 }
 
 .to-uppercase {
@@ -23,29 +28,43 @@ body {
 header {
   color: white;
   background-color: #2c3e50;
-  font-family: 'Montserrat', sans-serif;
+  font: 1em 'Montserrat', sans-serif;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 78.1%;
 }
 
+#logo {
+  font-size: 1.5em;
+  margin-top: 25px;
+}
 nav {
   display: flex;
   justify-content: space-between;
-
 }
 
 ul {
   display: flex;
   flex-direction: row;
+  margin-top: 29px;
+
 }
 
 li {
   list-style-type: none;
-  margin: 20px;
-
 }
 
 a {
-  color: white;
-  text-decoration: none;
+}
+
+li a {
+  color: yellow;
+  font-size: 0.85em;
+  padding: 7px;
+  letter-spacing: 0.07em;
 }
 
 a:hover {
