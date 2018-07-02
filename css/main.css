@@ -17,9 +17,12 @@ text-decoration: none;
 
 body {
   margin: 0 auto;
-  width: 93.7%;
+/* width: 93.7%; */
+  width: 100%;
+  max-width: 1280px;
   height: 100%;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -34,14 +37,13 @@ body {
 
 header {
   background-color: #2c3e50;
-  font-family: 'Montserrat', sans-serif;
   height: 80px;
   display: flex;
   justify-content: center;
 }
 
 header a {
-  color: yellow;
+  color: white;
 }
 
 header a:hover {
@@ -76,3 +78,63 @@ li a {
 }
 
 /*  Profile */
+
+#profile {
+  height: 632px;
+  background-color: #18bc9c;
+  display: flex;
+  flex-direction: column;
+}
+
+#profile img {
+  margin-top: 100px;
+  height: 230px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile h1 {
+  margin-top: 26px;
+  font-size: 4.3em;
+  letter-spacing: -2.4px;
+  color: white;
+  text-align: center;
+}
+
+#profile p {
+  font: 1.52em 'Lato', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
+/* Portfolio */
+
+#portfolio {
+  height: 791px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#portfolio img {
+  width: 315px;
+  height: auto;
+  /*230*/
+
+}
+
+/* About */
+
+#about {
+  height: 518px;
+  background-color: pink;
+}
+
+/* Contact */
+
+#contact {
+  height: 600px;
+  background-color: purple;
+}
