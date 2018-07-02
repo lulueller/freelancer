@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Freelancer</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -30,33 +31,86 @@
     </section>
 
     <!-- Portfolio -->
-    <section id = "portfolio">
-      <div class="wrapper">
-        <h2 class="to-uppercase">Portfolio</h2>
-        <img src="assets/images/portfolio/cabin.png" alt="">
-        <img src="assets/images/portfolio/cake.png" alt="">
-        <img src="assets/images/portfolio/circus.png" alt="">
-        <img src="assets/images/portfolio/game.png" alt="">
-        <img src="assets/images/portfolio/safe.png" alt="">
-        <img src="assets/images/portfolio/submarine.png" alt="">
-      <div>
-
-<!--  INSERIR TEXTO ALTERNATIVO NAS IMAGENS -->
-
-
-
+    <section id="portfolio">
+      <h2 class="to-uppercase highligh" >Portfolio</h2>
+      <div class="img-wrapper">
+        <img src="assets/images/portfolio/cabin.png" alt="Cabin">
+        <img src="assets/images/portfolio/cake.png" alt="Cake">
+        <img src="assets/images/portfolio/circus.png" alt="Circus">
+        <img src="assets/images/portfolio/game.png" alt="Joystic">
+        <img src="assets/images/portfolio/safe.png" alt="Safe Locker">
+        <img src="assets/images/portfolio/submarine.png" alt="Submarine">
+      </div>
     </section>
 
     <!-- About -->
-    <section id = "about">
+    <section id="about">
+      <h2 class="to-uppercase highligh">About</h2>
+      <div class="wrapper">
+        <p>
+        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+        </p>
+        <p>
+          Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+        </p>
+      </div>
+      <button id="download-button" type="button" name="download"><i class="fas fa-download"></i>Download Theme</button>
     </section>
 
     <!-- Contact -->
-    <section id = "contact">
+    <section id="contact">
+      <h2 class="to-uppercase highligh">Contact Me</h2>
+      <div class="wrapper">
+        <form>
+          <label for"name">Name</label>
+          <input type="text" id="name">
+          <label for"email">Email Address</label>
+          <input type="text" id="email">
+          <label for"phone">Phone Number</label>
+          <input type="text" id="phone">
+          <label for"message">Message</label>
+          <textarea></textarea>
+          <button id="contact-button" type="button" name="send">Send</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
+      <div>
+        <h3 class="to-uppercase">Location</h3>
+        <address>
+          <p>2215 John Daniel Drive Clark, MO 65243</p>
+        </address>
+      </div>
+      <div>
+        <h3 class="to-uppercase">Around the Web</h3>
+        <button type="button" class="sns-button" name="facebook-button">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+        <button type="button" class="sns-button" name="gplus-button">
+          <i class="fab fa-google-plus-g"></i>
+        </button>
+        <button type="button" class="sns-button" name="twitter-button">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button type="button" class="sns-button" name="linkedin-button">
+          <i class="fab fa-linkedin-in"></i>
+        </button>
+        <button type="button" class="sns-button" name="dribble-button">
+          <i class="fab fa-dribbble"></i>
+        </button>
+
+
+
+      </div>
+      <div>
+        <h3 class="to-uppercase">About Freelancer</h3>
+        <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+      </div>
+
+      <p>Copyright &#169; Your Website 2017</p>
+
     </footer>
 
   </body>

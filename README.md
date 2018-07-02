@@ -1,3 +1,10 @@
+#########################################
+Escala utilizada: 1
+Página testada em Mozilla Firefox 61.0
+#########################################
+
+
+
 # Freelancer
 
 * **Track:** _Common Core_
